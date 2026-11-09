@@ -13,8 +13,7 @@ If the number is already in the list, ignore it.)
 """
 
 #first list is for user to enter a number
-#second list is to add non-duplicate numbers from the first
-list
+#second list is to add non-duplicate numbers from the first list
 list1 = list(map(int, input("Enter a ten numbers:").split()))
 list2 = []
 #for each element in the first list, if it is not in the second list
